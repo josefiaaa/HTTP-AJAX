@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: gainsboro
+}
+
+
+.friendCard {
+  border: 2px solid grey;
+  margin: 20px 0px;
+  background: white;
+  padding: 30px 100px;
+  border-radius: 5px;
+}
+
+.friendCard:hover{
+  cursor: pointer;
+}
