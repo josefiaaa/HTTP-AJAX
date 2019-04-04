@@ -2,18 +2,90 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   background: gainsboro
 }
 
+.headerSect {
+  width: 100%;
+  height: 10%;
+  background: rgb(39, 38, 38);
+  color: white;
+  text-align: start
+}
+
+.headerSect h2 {
+  margin-left: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.newFriendForm{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -40px;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width:100%;
+  margin-left: 1350px;
+}
+
+input{
+  margin: 10px;
+  outline: none;
+  width: 20%;
+  padding-top: 8px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.add{
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(41, 206, 41);
+  margin-left: 135px;
+}
+
+.add:hover {
+  cursor: pointer;
+}
 
 .friendCard {
   border: 2px solid grey;
-  margin: 20px 0px;
+  margin: 20px 220px;
   background: white;
   padding: 30px 100px;
   border-radius: 5px;
+  width: 60%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.friendCard:hover{
+.deleteCont{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete{
+  background: red;
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.delete:hover{
+  cursor: pointer;
+}
+
+.update{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.update:hover {
   cursor: pointer;
 }
